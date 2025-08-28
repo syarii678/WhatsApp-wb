@@ -15,7 +15,7 @@
   "env": {
     "DATABASE_URL": "file:./dev.db"
   },
-  "buildCommand": "npm run build",
+  "buildCommand": "npm run vercel-build",
   "outputDirectory": ".next",
   "installCommand": "npm install --legacy-peer-deps"
 }
